@@ -1,0 +1,29 @@
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title.completed-section {
+  color: #6c757d;
+  border-bottom-color: #6c757d;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
